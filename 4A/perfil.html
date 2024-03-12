@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil De Liliana</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #94B0DA;
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue; /* esto es para el color de letra*/
+            text-align: center;
+        }
+        .perfil{
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color:  #94B0DA;
+            padding: 20px;
+            box-shadow: 0 0 10px black;
+        }
+        .foto-perfil{
+            width: 250px;
+            height: auto;
+            border-radius: 50%;
+            margin: 0 auto;
+            display:block;
+        }
+        ul{
+            list-style-type: none;
+
+        }
+
+        </style>
+        <div class="perfil">
+            <img src="flores.webp" alt="Florecitass" class="foto-perfil">
+            <h1 id="nombre">Nombre de perfil</h1>
+            <h3 id="especialidad">Especialidad del cetis</h3>
+            <h2>Gustos personales</h2>
+            <ul>
+                <li id="musica">Musica Favorita</li>
+                <li id="programas">Programas Favoritos</li>
+            </ul>
+            <h2>Informacion de </h2>
+            <p id="89964527632">Telefono</p>
+            <p id="azguerro25@gmail.com">Correo</p>
+            <p id="holaaaa">Biografia</p>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+                document.getElementById('nombre').textContent='Liliana Guerrero';
+                document.getElementById('especialidad').textContent='Programacion';
+                document.getElementById('musica').textContent='Taylor Swift, Cornelio Vega, Xavi';
+                document.getElementById('programas').textContent='Casos de la vida';
+                document.getElementById('telefono').textContent='89964527632';
+                document.getElementById('correo').textContent='azguerro25@gmail.com';
+                document.getElementById('biografia').textContent='holaaa';
+            })
+        </script>
+    </style>
+    <h1>Liliana Guerrero</h1>
+</body>
+</html>
